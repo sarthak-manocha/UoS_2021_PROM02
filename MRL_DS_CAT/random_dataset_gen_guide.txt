@@ -1,0 +1,2 @@
+**NOTE** 
+Launch and run the PROM02_01_Exploratory-Data-Analysis.ipynb and it will create 3 random sub-datasets using MRL_DS_RAW.

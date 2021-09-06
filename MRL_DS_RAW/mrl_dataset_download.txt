@@ -1,0 +1,3 @@
+**NOTE** 
+Download and extract the MRL Eye Dataset in MRL_DS_RAW directory
+Link - http://mrl.cs.vsb.cz/data/eyedataset/mrlEyes_2018_01.zip
