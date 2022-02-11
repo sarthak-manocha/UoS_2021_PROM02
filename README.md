@@ -7,6 +7,6 @@ A prototype using this model has been implemented as well that uses Haar Cascade
 
 # Related Resources
 
--   [Environment Setup Guide]()
+-   [Environment Setup Guide](https://drive.google.com/file/d/1RHRxLgpEWVRc_iIDe3_GiC6y68NbHs-Q/view?usp=sharing)
 -   [Written Dissertation]()
 -   [Dissertation Appendix]()
