@@ -8,5 +8,5 @@ A prototype using this model has been implemented as well that uses Haar Cascade
 # Related Resources
 
 -   [Written Dissertation](https://drive.google.com/file/d/1RHRxLgpEWVRc_iIDe3_GiC6y68NbHs-Q/view?usp=sharing)
--   [Dissertation Appendix](https://drive.google.com/file/d/1z3c5tjBNtmIVNAzkae_upURfPlp1WXko/view?usp=sharing)
+-   [Dissertation Appendix](https://drive.google.com/file/d/19QCD9ncC60_qiFzTyP3DTuqAe-_U-Qjm/view?usp=drive_link)
 -   [Prototype Demonstration](https://drive.google.com/drive/folders/1GU3uEWR35FBmc50c5EWP1W9BHpxL99Ia?usp=sharing)
