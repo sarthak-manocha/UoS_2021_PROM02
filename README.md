@@ -78,8 +78,3 @@ Ensure you have Python 3.7+ installed and required libraries:
 
 ```bash
 pip install opencv-python numpy scikit-learn scikit-image matplotlib jupyter
-
-Install dependencies via:
-
-```bash
-pip install -r requirements.txt
