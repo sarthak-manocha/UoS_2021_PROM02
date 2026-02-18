@@ -1,4 +1,4 @@
-# Master's Dissertation – Drowsiness Detection
+# Master’s Dissertation – Drowsiness Detection
 
 **A Comparative Study into Feature Extraction/Descriptor Methods for Improving Supervised Machine Learning**  
 *University of Sunderland – MSc Data Science (2021)*
@@ -7,83 +7,77 @@
 
 ## 🧠 Project Overview
 
-This repository contains the code and supporting materials for my **Master’s Dissertation** project, which investigates the effectiveness of feature extraction techniques in improving supervised machine learning performance for **drowsiness detection**.
+This repository houses the code, data, and artifacts from my Master’s Dissertation, which investigates the impact of feature extraction techniques — especially **Histogram of Oriented Gradients (HOG)** — on supervised machine learning performance for **drowsiness detection** from visual data.
 
-The study compares traditional supervised learning models enhanced with feature extraction methods — most notably **Histogram of Oriented Gradients (HOG)** — and evaluates their impact in detecting signs of drowsiness from visual data.
-
----
-
-## 🛠️ Solution Summary
-
-The core solution implemented in this project:
-
-- Written primarily in **Python**
-- Uses a **Supervised Learning model** — *Support Vector Machine (SVM)*
-- Enhanced with **Histogram of Oriented Gradients (HOG)** feature extraction/descriptor to improve classification accuracy
-- Includes **experimental evaluation and comparative analysis** based on feature extraction techniques
+The aim was to determine whether enhanced features improve classification accuracy over baseline approaches, and to implement a working prototype that demonstrates the solution in action.
 
 ---
 
-## 🎯 Key Features
+## 📂 Repository Contents
+📦 (root)
+┣ 📂 MRL_DS_CAT
+┣ 📂 MRL_DS_RAW
+┣ 📂 PROM02_Prototype
+┣ PROM02_01_Exploratory-Data-Analysis.ipynb
+┣ PROM02_02_Classification-Models.ipynb
+┣ PROM02_03_Deep-Learning.ipynb
+┣ model_SVM_HOG.sav
+┣ README.md
 
-### 📌 Machine Learning Model
-
-- **Model:** Support Vector Machine (SVM)
-- **Feature Extraction:** Histogram of Oriented Gradients (HOG)
-- **Goal:** Improve performance for detecting signs of drowsiness based on facial image features
-
----
-
-## 🧪 Prototype Demonstration
-
-A simple prototype application demonstrates how the model can be used in practice:
-
-- Utilises **Haar Cascades** for:
-  - Face detection
-  - Eye detection
-- Runs on a **live webcam video feed**
-- Predicts probability of eye state (i.e., percentage of eye openness)
-- If eyes remain closed for **4–5 seconds**, the prototype triggers an alert
-
-This real-time prototype shows how the model could be deployed for driver monitoring or fatigue detection systems.
+- **MRL_DS_RAW** – Raw dataset used for preprocessing and modeling  
+- **MRL_DS_CAT** – Categorised or preprocessed dataset files  
+- **PROM02_Prototype** – Real-time prototype code (Haar Cascades + model)  
+- **Notebooks** – EDA, classification pipelines, deep learning experiments  
+- **model_SVM_HOG.sav** – Trained SVM model with HOG feature descriptor
 
 ---
 
-## 📁 Repository Contents
+## 📘 Key Notebooks
 
-| Folder/File | Description |
-|-------------|-------------|
-| `model/` | Python implementation of the SVM + HOG model |
-| `prototype/` | Code for the live video prototype using Haar Cascades |
-| `data/` | Sample images, datasets, and preprocessed features |
-| `notebooks/` | Jupyter Notebooks with experimentation and analysis |
-| `results/` | Evaluation results, graphs, and model comparisons |
-| `dissertation/` | Written dissertation and appendix documents |
+| Notebook | Purpose |
+|----------|---------|
+| **PROM02_01_Exploratory-Data-Analysis.ipynb** | Explore and preprocess raw data |
+| **PROM02_02_Classification-Models.ipynb** | Train and evaluate traditional ML models (e.g., SVM + HOG) |
+| **PROM02_03_Deep-Learning.ipynb** | Deep learning experiments and comparisons |
 
 ---
 
-## 📚 Related Resources
+## 🧠 Model Artifact
 
-- 📄 **Written Dissertation** – [Full academic report](https://drive.google.com/file/d/1RHRxLgpEWVRc_iIDe3_GiC6y68NbHs-Q/view?usp=sharing)
-- 📄 **Dissertation Appendix** – [Supporting material and raw data](https://drive.google.com/file/d/19QCD9ncC60_qiFzTyP3DTuqAe-_U-Qjm/view?usp=drive_link)
+- **`model_SVM_HOG.sav`** – Serialized SVM model trained using HOG feature extraction, used by the prototype for real-time predictions.
+
+---
+
+## 🚀 Prototype Demonstration
+
+The live prototype demonstrates a real-time drowsiness detection system using:
+
+- **OpenCV Haar Cascades** for face and eye detection
+- The trained **HOG-enhanced SVM model** to predict eye-state probability
+- Logic to alert the user if eyes are closed for ~4–5 seconds
+
+This shows how the trained model can be used practically in driver monitoring scenarios.
+
+---
+
+## 🔗 Related Resources
+
+- 📄 **Written Dissertation** – [Full academic report](https://drive.google.com/file/d/1RHRxLgpEWVRc_iIDe3_GiC6y68NbHs-Q/view?usp=sharing)  
+- 📄 **Dissertation Appendix** – [Supporting material and raw data](https://drive.google.com/file/d/19QCD9ncC60_qiFzTyP3DTuqAe-_U-Qjm/view?usp=drive_link)  
 - 🎥 **Prototype Demonstration** – [Video walkthrough of the live detection system](https://drive.google.com/drive/folders/1GU3uEWR35FBmc50c5EWP1W9BHpxL99Ia?usp=sharing)
 
-(*Links to these resources can be attached here if available.*)
-
 ---
 
-## 📦 Quick Start
+## 📦 Setup & Dependencies
+
+To run the notebooks and prototype locally:
 
 ### Requirements
 
-Make sure you have the following installed:
+Ensure you have Python 3.7+ installed and required libraries:
 
-- Python 3.7+
-- OpenCV
-- NumPy
-- scikit-learn
-- scikit-image
-- matplotlib
+```bash
+pip install opencv-python numpy scikit-learn scikit-image matplotlib jupyter
 
 Install dependencies via:
 
