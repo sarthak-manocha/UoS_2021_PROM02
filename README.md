@@ -14,6 +14,7 @@ The aim was to determine whether enhanced features improve classification accura
 ---
 
 ## 📂 Repository Contents
+```
 📦 (root)
 ┣ 📂 MRL_DS_CAT
 ┣ 📂 MRL_DS_RAW
@@ -23,6 +24,7 @@ The aim was to determine whether enhanced features improve classification accura
 ┣ PROM02_03_Deep-Learning.ipynb
 ┣ model_SVM_HOG.sav
 ┣ README.md
+```
 
 - **MRL_DS_RAW** – Raw dataset used for preprocessing and modeling  
 - **MRL_DS_CAT** – Categorised or preprocessed dataset files  
