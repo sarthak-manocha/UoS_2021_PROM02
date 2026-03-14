@@ -16,14 +16,26 @@ The aim was to determine whether enhanced features improve classification accura
 ## 📂 Repository Contents
 ```
 📦 (root)
-┣ 📂 MRL_DS_CAT
-┣ 📂 MRL_DS_RAW
-┣ 📂 PROM02_Prototype
-┣ PROM02_01_Exploratory-Data-Analysis.ipynb
-┣ PROM02_02_Classification-Models.ipynb
-┣ PROM02_03_Deep-Learning.ipynb
-┣ model_SVM_HOG.sav
-┣ README.md
+├── 📂 MRL_DS_CAT/
+│   └── random_dataset_gen_guide.txt      # Guide for generating datasets
+├── 📂 MRL_DS_RAW/
+│   └── mrl_dataset_download.txt          # Links/instructions for raw data
+├── 📂 PROM02_Prototype/
+│   ├── 📂 demos/
+│   │   ├── video_demo1_sub1.mkv          # Video demonstration 1
+│   │   └── video_demo2_sub1.mkv          # Video demonstration 2
+│   ├── 📂 files/
+│   │   ├── 📂 haar/
+│   │   │   ├── haarcascade_eye.xml       # OpenCV Haar Cascade for eye detection
+│   │   │   └── haarcascade_frontalface_default.xml
+│   │   └── 📂 sound/
+│   │       └── alert.wav                 # Audio alert file for the prototype
+│   └── PROM02_04_Prototype.ipynb         # Main prototype notebook
+├── PROM02_01_Exploratory-Data-Analysis.ipynb
+├── PROM02_02_Classification-Model.ipynb
+├── PROM02_03_Deep-Learning.ipynb
+├── README.md                             # Project documentation
+└── model_SVM_HOG.sav                     # Trained SVM model using HOG features
 ```
 
 - **MRL_DS_RAW** – Raw dataset used for preprocessing and modeling  
